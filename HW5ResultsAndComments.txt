@@ -1,0 +1,12 @@
+        -- Common --
+-- Аix packaging in project classes
+-- Use CTRL+ALT+L
+-- Rename all by java code convention
+
+        -- Task 1 --
+-- Where first task?
+
+
+        -- Task 2 --
+
+        -- Task 3 --
