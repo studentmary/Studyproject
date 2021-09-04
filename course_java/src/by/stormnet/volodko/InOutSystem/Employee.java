@@ -1,19 +1,32 @@
 package by.stormnet.volodko.InOutSystem;
 
+import java.util.Arrays;
+import java.util.Random;
+
 class Employee extends Person {
-	protected long id;
-	protected static long counter = 0000000000;
+	private final  IdCard idCard;
+	private final OfficeStatus officeStatus;
 
 
-	public Employee(String name, String surname) {
+	public Employee(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
 		super(name, surname);
-		id = counter++;
+		this.idCard = idCard;
+		this.officeStatus = officeStatus;
 	}
 
 
+	public IdCard getIdCard() {
+		return idCard;
+	}
+
+	public OfficeStatus getOfficeStatus() {
+		return officeStatus;
+	}
+
 	@Override
 	public void displayInfo() {
-		System.out.println("Имя: " + super.getName() + " " + "Фамилия: " + super.getSurname() + " " + "Номер карты: " + id);
+		System.out.println("Имя: " + super.getName() + " " + "Фамилия: " + super.getSurname() + " " + "Статус: " + getOfficeStatus() + "Номер карты: " + getIdCard());
+
 	}
 
 }

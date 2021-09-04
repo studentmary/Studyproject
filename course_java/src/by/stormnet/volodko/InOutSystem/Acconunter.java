@@ -1,8 +1,8 @@
 package by.stormnet.volodko.InOutSystem;
 
 public class Acconunter extends Manager implements RoomVisiter {
-	public Acconunter(String name, String surname) {
-		super(name, surname);
+	public Acconunter(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
+		super(name, surname,idCard, officeStatus);
 	}
 
 	@Override
@@ -10,6 +10,6 @@ public class Acconunter extends Manager implements RoomVisiter {
 	}
 
 	@Override
-	public void press() {
+	public void presshandle() {
 	}
 }

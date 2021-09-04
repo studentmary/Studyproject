@@ -3,8 +3,8 @@ package by.stormnet.volodko.InOutSystem;
 public class Director extends Manager implements RoomVisiter {
 
 
-	public Director(String name, String surname) {
-		super(name, surname);
+	public Director(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
+		super(name, surname, idCard, officeStatus);
 	}
 
 	@Override
@@ -13,7 +13,7 @@ public class Director extends Manager implements RoomVisiter {
 	}
 
 	@Override
-	public void press() {
+	public void presshandle() {
 		System.out.println("Нажать ручку");
 	}
 }

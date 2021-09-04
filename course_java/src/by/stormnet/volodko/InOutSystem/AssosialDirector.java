@@ -1,8 +1,8 @@
 package by.stormnet.volodko.InOutSystem;
 
 public  class AssosialDirector extends Manager  implements RoomVisiter {
-	public AssosialDirector(String name, String surname) {
-		super(name, surname);
+	public AssosialDirector(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
+		super(name, surname, idCard,officeStatus);
 	}
 
 	@Override
@@ -11,7 +11,7 @@ public  class AssosialDirector extends Manager  implements RoomVisiter {
 	}
 
 	@Override
-	public void press() {
+	public void presshandle() {
 		System.out.println("Нажать ручку");
 	}
 }
