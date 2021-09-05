@@ -15,8 +15,9 @@ public class IdCard {
 	{
 		System.out.println(id[i] = new Random().nextInt(10));
 	}
-
 }
+
+
 
 
 

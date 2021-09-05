@@ -1,8 +1,8 @@
-package by.stormnet.volodko.InOutSystem;
+package by.stormnet.volodko.InOutSystem.Person.Employees;
 
 public abstract class Person {
-	private String name;
-	private String surname;
+	protected String name;
+	protected String surname;
 
 	public Person(String name, String surname) {
 		this.name = name;
@@ -22,8 +22,9 @@ public abstract class Person {
 	}
 
 	public void setSurname(String surname) {
-		this.surname = surname;
-	}
+		this.surname = surname;}
 
-	public abstract void displayInfo();
+		public abstract void displayInfo ();
+
 }
+

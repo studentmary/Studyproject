@@ -1,4 +1,8 @@
-package by.stormnet.volodko.InOutSystem;
+package by.stormnet.volodko.InOutSystem.Person.Employees.Managers;
+
+import by.stormnet.volodko.InOutSystem.OfficeStatus;
+import by.stormnet.volodko.InOutSystem.IdCard;
+import by.stormnet.volodko.InOutSystem.RoomVisiter;
 
 public class Director extends Manager implements RoomVisiter {
 
@@ -16,5 +20,6 @@ public class Director extends Manager implements RoomVisiter {
 	public void presshandle() {
 		System.out.println("Нажать ручку");
 	}
-}
 
+
+}

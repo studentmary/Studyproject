@@ -1,11 +1,12 @@
-package by.stormnet.volodko.InOutSystem;
+package by.stormnet.volodko.InOutSystem.Person.Employees;
 
-import java.util.Arrays;
-import java.util.Random;
 
-class Employee extends Person {
-	private final  IdCard idCard;
-	private final OfficeStatus officeStatus;
+import by.stormnet.volodko.InOutSystem.IdCard;
+import by.stormnet.volodko.InOutSystem.OfficeStatus;
+
+public class Employee extends Person {
+	 protected IdCard idCard;
+	protected OfficeStatus officeStatus;
 
 
 	public Employee(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
@@ -28,5 +29,6 @@ class Employee extends Person {
 		System.out.println("Имя: " + super.getName() + " " + "Фамилия: " + super.getSurname() + " " + "Статус: " + getOfficeStatus() + "Номер карты: " + getIdCard());
 
 	}
+
 
 }
