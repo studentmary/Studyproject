@@ -5,14 +5,14 @@ import by.stormnet.volodko.InOutSystem.IdCard;
 import by.stormnet.volodko.InOutSystem.OfficeStatus;
 
 public class Employee extends Person {
-	 protected IdCard idCard;
+	protected IdCard idCard;
 	protected OfficeStatus officeStatus;
 
 
-	public Employee(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
+	public Employee(String name, String surname) {
 		super(name, surname);
-		this.idCard = idCard;
-		this.officeStatus = officeStatus;
+		this.idCard =null;
+		this.officeStatus = officeStatus.NOT_IN_THE_OFFICE;
 	}
 
 

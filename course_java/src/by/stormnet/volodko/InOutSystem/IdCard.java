@@ -1,20 +1,14 @@
 package by.stormnet.volodko.InOutSystem;
 
 import java.util.Random;
+import java.util.UUID;
 
 public class IdCard {
-	int idCard;
-
-	public IdCard(int idCard) {
-		this.idCard = idCard;
+	public IdCard() {
+		//String id;
+	//	id = UUID.randomUUID().toString().substring(0, 10);
 	}
 
-	int[] id = new int[10];
-
-
-	{
-		System.out.println(id[i] = new Random().nextInt(10));
-	}
 }
 
 
