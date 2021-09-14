@@ -12,6 +12,7 @@ public class Employee extends Person {
 	public Employee(String name, String surname) {
 		super(name, surname);
 		this.idCard =null;
+		// FIXME: 9/14/2021 Обращение к элементам в энамках происходит по названию энама
 		this.officeStatus = officeStatus.NOT_IN_THE_OFFICE;
 	}
 
