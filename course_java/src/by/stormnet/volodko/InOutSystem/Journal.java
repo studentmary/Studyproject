@@ -1,11 +1,30 @@
 package by.stormnet.volodko.InOutSystem;
 
+import by.stormnet.volodko.InOutSystem.Person.Employees.Employee;
+import by.stormnet.volodko.InOutSystem.Person.Employees.Person;
+
+import java.util.ArrayList;
+
 public class Journal {
-	int[] registeredEmployee = new int [15];
 
-	public void register(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
-		var emloyee = new Employee(name, surname, IdCard idCard, OfficeStatus officeStatus)
+	ArrayList<Employee> registeredEmployee = new ArrayList<>(15);   // Employee[] registeredEmployee = new Employee[15];
+	for(
+	Employee emp:registeredEmployee)
+
+	{
+		if (emp.getName() == employee.getName && emp.getSurname() == registeredEmployee.surname) {
+		}
 	}
-	registeredEmployee.add(employee);
 
+	//{	registeredEmployee[i] = (Employee) registeredEmployee[i]}
+
+	public void regist(Employee employee) {
+		registeredEmployee.add(employee);
+	}
 }
+
+
+
+
+
+
