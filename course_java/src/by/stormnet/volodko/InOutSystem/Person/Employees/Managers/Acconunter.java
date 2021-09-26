@@ -5,8 +5,8 @@ import by.stormnet.volodko.InOutSystem.OfficeStatus;
 import by.stormnet.volodko.InOutSystem.RoomVisiter;
 
 public class Acconunter extends Manager implements RoomVisiter {
-	public Acconunter(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
-		super(name, surname,idCard, officeStatus);
+	public Acconunter(String name, String surname) {
+		super(name, surname);
 	}
 
 	@Override

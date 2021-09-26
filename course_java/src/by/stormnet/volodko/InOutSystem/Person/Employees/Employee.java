@@ -11,7 +11,7 @@ public class Employee extends Person {
 
 	public Employee(String name, String surname) {
 		super(name, surname);
-		this.idCard =null;
+		this.idCard = null;
 		// FIXME: 9/14/2021 Обращение к элементам в энамках происходит по названию энама
 		this.officeStatus = officeStatus.NOT_IN_THE_OFFICE;
 	}
@@ -27,7 +27,7 @@ public class Employee extends Person {
 
 	@Override
 	public void displayInfo() {
-		System.out.println("Имя: " + super.getName() + " " + "Фамилия: " + super.getSurname() + " " + "Статус: " + getOfficeStatus() + "Номер карты: " + getIdCard());
+		System.out.println("Имя: " + super.getName() + " " + "Фамилия: " + super.getSurname() + " " + "Статус: " + getOfficeStatus() + " " + "Номер карты: " + getIdCard());
 
 	}
 

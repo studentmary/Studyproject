@@ -5,8 +5,8 @@ import by.stormnet.volodko.InOutSystem.IdCard;
 import by.stormnet.volodko.InOutSystem.RoomVisiter;
 
 public class DevOps extends Employee implements RoomVisiter {
-	public DevOps(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
-		super(name, surname, idCard, officeStatus);
+	public DevOps(String name, String surname) {
+		super(name, surname);
 	}
 
 	@Override

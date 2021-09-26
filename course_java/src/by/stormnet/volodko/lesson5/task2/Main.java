@@ -1,17 +1,17 @@
 package by.stormnet.volodko.lesson5.task2;
 
-import by.stormnet.volodko.lesson5.task2.Chair;
+import by.stormnet.volodko.lesson5.task2.Stul;
 
 public class Main {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        Chair Chair = new Chair("kitchen");
-        Chair.seat sidenie =Chair.new seat();
-        Chair.legs nozhki =Chair.new legs();
-        Chair.back spinka =Chair.new back();
+		Stul Stul = new Stul("kitchen", "wood");
+		Stul.Seat sidenie = Stul.new Seat();
+		Stul.Legs nozhki = Stul.new Legs();
+		Stul.Back spinka = Stul.new Back();
 
-        sidenie.up();
-        spinka.backward();
-        nozhki.legs();
-    }
+		sidenie.up();
+		spinka.backward();
+		nozhki.legs();
+	}
 }

@@ -7,8 +7,7 @@ import java.util.UUID;
 
 public class IdCard {
 
-	String id;
-	id =UUID.randomUUID().toString().substring(0,10).replaceAll("(\\D|-)+","");
+	String id =UUID.randomUUID().toString().substring(0,10).replaceAll("(\\D|-)+","");
 
 }
 

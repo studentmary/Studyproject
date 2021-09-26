@@ -7,8 +7,8 @@ import by.stormnet.volodko.InOutSystem.RoomVisiter;
 public class Director extends Manager implements RoomVisiter {
 
 
-	public Director(String name, String surname, IdCard idCard, OfficeStatus officeStatus) {
-		super(name, surname, idCard, officeStatus);
+	public Director(String name, String surname) {
+		super(name, surname);
 	}
 
 	@Override

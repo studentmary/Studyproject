@@ -1,12 +1,15 @@
 package by.stormnet.volodko.InOutSystem.Person.Employees.Managers;
 
-	public class BA extends Manager{
+import by.stormnet.volodko.InOutSystem.IdCard;
+import by.stormnet.volodko.InOutSystem.OfficeStatus;
+
+public class BA extends Manager {
 
 
-		public BA (String name, String surname) {
-			super(name, surname);
-		}
+	public BA(String name, String surname) {
+		super(name, surname);
 
 
 	}
+}
 
