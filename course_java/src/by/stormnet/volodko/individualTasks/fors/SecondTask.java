@@ -22,6 +22,22 @@ public class SecondTask {
 		  	Использовать цикл fori
 https://javarush.ru/groups/posts/for-v-java
  		 */
+		ArrayList<String> text = new ArrayList<>();
+
+		{
+			Collections.addAll(text,
+					"First sentence.",
+					"Second sentece.",
+					"Third sentece.",
+					"Other sentece.",
+					"Hello!");
+		}
+
+		for (int i = text.size() - 1; i >= 0; i--) {
+			System.out.println(text.get(i));
+
+		}
 
 	}
+
 }
